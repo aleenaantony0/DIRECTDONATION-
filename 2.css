@@ -1,0 +1,148 @@
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Logo section */
+.logo-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.site-title {
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #8bc34a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+/* Hero Image */
+.hero img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+/* Footer */
+footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.donation-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+form {
+  text-align: left;
+}
+
+.amount-btn {
+  padding: 15px 30px;
+  font-size: 1rem;
+  margin: 10px 10px 0 0;
+  background: #e0e0e0;
+  border: 2px solid #999;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.amount-btn.selected {
+  border: 2px solid #000;
+  font-weight: bold;
+}
+
+#otherInputDiv {
+  margin-top: 20px;
+}
+
+#customAmount {
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#donateBtn {
+  background-color: #f15a24;
+  color: white;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  width: 100%;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#donateBtn:hover {
+  background-color: #e04e1d;
+}
